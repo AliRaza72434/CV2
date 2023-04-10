@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <hr size="3" noshade="" />
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email</li>
+      <ul>
+        <li><address>Mh6263229@gmail.com</address></li>
+      </ul>
+      <li>Contact No</li>
+      <ul>
+        <li><address>+923084072434</address></li>
+      </ul>
+      <li>Whatsapp Numbers</li>
+      <ul>
+        <li><address>+923473972434</address></li>
+        <li><address>+923084072434</address></li>
+      </ul>
+    </ul>
+    <hr size="3" noshade="" />
+    <!-- you can use action for email to anyone  -->
+    <!-- action is used what should happen after form submission -->
+    <!-- if after click submit button and nothing happen it mean that there is error in the programme -->
+    <!-- Name is used to tell server What is this field for? .Name is used to tell server by which name data has entered -->
+    <form action="mailto:aliraza72434@gmail.com" autocapitalize autocomplete="on" method="post" enctype="text/plain" target="_blank">
+      <label for="name">Your Name:</label>
+      <input type="text" name="YourName" placeholder="Enter your name" ><br><br>
+      <label for="emil">Your Email:</label>
+      <input type="email" name="YourEmail" id="email" placeholder="Enter your email">
+      <br><br>
+      <label for="message">Your Message:</label> <br>
+      <textarea name="YourMessage" id="message" cols="30" rows="10"></textarea> <br><br>
+      <label for="university">Select Your University:</label>
+      <select name="University" id="university">
+        <option value="N/A">N/A</option>
+        <option value="UAF">UAF</option>
+        <option value="UET">UET</option>
+        <option value="FAST">FAST</option>
+        <option value="NUST">NAST</option>
+      </select> <br> <br>
+      <input type="submit" value="SUBMIT">
+    </form>
+  </body>
+  <!-- to gave option of one selection in radio type the name should be same otherwise all the options will be select -->
+
+  <!-- row attribute determine how tall your text area should be -->
+  <!-- column attribute determine how wide it should be on your web page -->
+</html>
